@@ -298,14 +298,14 @@
         const GAME_MODES = { CUBE: 'cube', SHIP: 'ship', BALL: 'ball', UFO: 'ufo', WAVE: 'wave', ROBOT: 'robot', SPIDER: 'spider' };
 
         const LEVELS = [
-            { id: 1, name: 'Stellar Start', difficulty: 'Easy', bpm: 180, data: 'S:B:B:B:B:S:B:B:S:S:J:B:B:J:B:B:S:B:J:B:B:B:B:B:B:O:B:B:B:B:S:B:B:B:B:B:B:B:B:B:B:O:B:J:B:B:S' },
-            { id: 2, name: 'Lunar Landing', difficulty: 'Easy', bpm: 185, data: 'S:B:B:J:B:O:B:B:S:B:B:B:J:B:B:B:S:J:B:O:B:B:J:B:B:B:B:S:B:B:B:B:B:B:J:B:O:B:B:B:S:B:J:B:O' },
-            { id: 3, name: 'Solar Storm', difficulty: 'Normal', bpm: 190, data: 'S:B:J:B:B:O:B:S:B:B:J:B:B:B:S:J:B:O:B:B:J:B:B:B:O:B:B:S:B:J:B:O:B:B:J:B:S:B:J:B:O:B:B:B:S' },
-            { id: 4, name: 'Cosmic Challenge', difficulty: 'Normal', bpm: 195, data: 'S:B:J:B:O:B:B:J:S:B:O:B:J:B:B:S:J:B:O:B:B:J:B:O:B:S:B:J:B:B:O:B:J:S:B:O:B:B:J:B:S:B:O:B:J' },
-            { id: 5, name: 'Nebula Rush', difficulty: 'Hard', bpm: 200, data: 'S:B:J:B:O:B:S:J:B:O:B:B:J:B:O:S:B:J:O:B:B:J:B:O:B:S:J:B:O:B:J:B:S:O:B:J:B:B:O:J:S:B:O:J:B' },
-            { id: 6, name: 'Pulsar Panic', difficulty: 'Hard', bpm: 210, data: 'S:J:B:O:B:J:B:O:S:J:B:O:J:B:S:O:B:J:O:B:J:B:O:B:J:S:O:B:J:B:O:J:B:S:O:B:J:O:B:J:B:S:O:B:J' },
-            { id: 7, name: 'Supernova', difficulty: 'Insane', bpm: 220, data: 'S:J:O:B:J:O:B:J:S:O:J:B:O:J:B:S:J:O:B:O:J:B:O:J:S:B:O:J:B:O:J:B:S:O:J:B:O:J:B:S:J:O:B:J:O' },
-            { id: 8, name: 'Void Voyage', difficulty: 'Insane', bpm: 230, data: 'S:O:J:B:O:J:O:J:B:S:O:J:O:B:J:O:S:J:O:B:J:O:B:J:S:O:J:O:B:J:O:J:B:S:O:J:B:O:J:O:S:J:B:O:J' }
+            { id: 1, name: 'Stellar Start', difficulty: 'Easy', bpm: 180, data: 'B:B:B:B:B:J:B:B:B:B:B:B:O:B:S:B:B:B:J:B:B:B:S:B:O:B:B:B:B:B:J:B:B:B:B:B:B:B:B:B:B:B:O:B:J:B:B' },
+            { id: 2, name: 'Lunar Landing', difficulty: 'Easy', bpm: 185, data: 'B:B:J:B:O:B:B:B:B:B:B:J:B:B:B:B:J:B:O:B:B:J:B:B:B:B:B:B:B:B:B:J:B:O:B:B:B:B:J:B:O:B:B:J:B' },
+            { id: 3, name: 'Solar Storm', difficulty: 'Normal', bpm: 190, data: 'B:J:B:B:O:B:B:B:B:J:B:B:B:B:J:B:O:B:B:J:B:B:B:O:B:B:B:J:B:O:B:B:J:B:B:B:J:B:O:B:B:B:B:B:J' },
+            { id: 4, name: 'Cosmic Challenge', difficulty: 'Normal', bpm: 195, data: 'B:J:B:O:B:B:J:B:O:B:J:B:B:B:J:B:O:B:B:J:B:O:B:B:J:B:O:B:J:B:B:O:B:J:B:O:B:B:J:B:B:O:B:J:B' },
+            { id: 5, name: 'Nebula Rush', difficulty: 'Hard', bpm: 200, data: 'B:J:B:O:B:B:J:B:O:B:B:J:B:O:B:J:O:B:B:J:B:O:B:J:B:O:B:J:B:O:B:J:B:B:O:B:J:B:B:O:J:B:O:J:B' },
+            { id: 6, name: 'Pulsar Panic', difficulty: 'Hard', bpm: 210, data: 'B:J:B:O:B:J:B:O:B:J:B:O:J:B:B:O:B:J:O:B:J:B:O:B:J:B:O:B:J:B:O:J:B:B:O:B:J:O:B:J:B:B:O:B:J' },
+            { id: 7, name: 'Supernova', difficulty: 'Insane', bpm: 220, data: 'B:J:O:B:J:O:B:J:B:O:J:B:O:J:B:B:J:O:B:O:J:B:O:J:B:B:O:J:B:O:J:B:B:O:J:B:O:J:B:B:J:O:B:J:O' },
+            { id: 8, name: 'Void Voyage', difficulty: 'Insane', bpm: 230, data: 'B:O:J:B:O:J:O:J:B:B:O:J:O:B:J:O:B:J:O:B:J:O:B:J:B:O:J:O:B:J:O:J:B:B:O:J:B:O:J:O:B:J:B:O:J' }
         ];
 
         let playerStats = { attempts: {}, bestProgress: {} };
